@@ -15,9 +15,9 @@ int main()
     cout << "Ingrese el numero de cuotas: ";
     cin >> numeroDeCuotas;
 
-    // Calcular el monto del interés (Fórmula del Interés Compuesto)
+    // Calcular el valor de la cuota mensual con ganancia del 2%
     valorDeCuota = (valorDeMatricula * 1.02) / numeroDeCuotas;
-    // Calcular el valor a futuro de la inversión (Fórmula del Interés Compuesto)
+    // Calcula el valor total de la matrícula.
     valorTotal = valorDeCuota * numeroDeCuotas;
     cout << endl;
     // Mostrar el resultado en consola.
